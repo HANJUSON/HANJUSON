@@ -15,7 +15,7 @@
 **고려대학교(세종) 컴퓨터소프트웨어학과** · 3rd Year  
 Bridging **Software Engineering** and **Economics**
 
-[![Email](https://img.shields.io/badge/Email-8B0029?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Email](https://img.shields.io/badge/Email-8B0029?style=flat-square&logo=gmail&logoColor=white)](mailto:sonhanju36@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-222222?style=flat-square&logo=github&logoColor=white)](https://github.com/HANJUSON)
 
 </div>
