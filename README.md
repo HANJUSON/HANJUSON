@@ -35,12 +35,7 @@ Bridging **Software Engineering** and **Economics**
 ---
 
 <!-- Currently -->
-## 🔭 What I'm Working On
 
-- 📊 **Empirical Research** — 8.2 부동산 대책 정책효과 분석 (TWFE-DiD, Stata)
-- 🧑‍💻 **AI Tool** — Block-coding C language learning tool (Claude API + React + Blockly)
-- ⚙️ **Dev Setup** — Obsidian + Claude Code knowledge management workflow
-- 🖥️ **GPU Monetization** — RTX 5060 remote desktop via Moonlight + Sunshine + Tailscale
 
 ---
 
@@ -91,7 +86,6 @@ Bridging **Software Engineering** and **Economics**
 | 🏗️ Software Architecture | System design, distributed systems |
 | 💹 International Finance | Korea Eximbank, trade finance |
 | 🤖 AI / LLM Applications | Claude API, agentic workflows |
-| 📊 Empirical Economics | Causal inference, policy evaluation |
 
 ---
 
