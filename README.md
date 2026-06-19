@@ -27,9 +27,8 @@ Bridging **Software Engineering** and **Economics**
 
 ```text
 🏫  Korea University, CSE (컴퓨터소프트웨어학과)  — 3rd Year
-📐  Double-tracking: CS coursework  +  Economics (micro · macro · econometrics · labor)
-🔬  Economics Research Club  —  Quantitative empirical analysis (DiD, TWFE, Stata)
-🌏  Long-term interest: Software Architecture  ×  International Finance
+🔬  Working in Programming Learning Center
+🌏  Long-term interest: Software Architecture, AI engeenering
 ```
 
 ---
