@@ -138,9 +138,9 @@ loopback은 커널이 네트워크 스택을 우회하므로 **Docker bridge 격
 
 <div align="center">
 
-<img height="200" alt="GitHub 활동 통계" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HANJUSON&theme=default" />
+<img height="180" alt="GitHub 활동 통계" src="./profile/stats.svg" />
 &nbsp;
-<img height="200" alt="주요 사용 언어" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=HANJUSON&theme=default" />
+<img height="180" alt="주요 사용 언어" src="./profile/top-langs.svg" />
 
 </div>
 
