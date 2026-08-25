@@ -14,8 +14,8 @@
 
 **고려대학교(세종) 컴퓨터소프트웨어학과** · 3rd Year
 
-**커널 레벨 시스템 프로그래밍(C)부터 풀스택 웹 서비스(TypeScript/React)까지**<br/>
-직접 만들고, 측정하고, 문서로 남깁니다.
+**AI 에이전트를 운용해 시스템을 만들고, 동작은 직접 측정해 문서로 남깁니다.**<br/>
+커널(C) · 풀스택 웹(TypeScript/React) · 저지연 네트워크 벤치마크
 
 [![Email](https://img.shields.io/badge/Email-8B0029?style=flat-square&logo=gmail&logoColor=white)](mailto:sonhanju36@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-222222?style=flat-square&logo=github&logoColor=white)](https://github.com/HANJUSON)
@@ -49,12 +49,19 @@
 
 > 팀 프로젝트는 **제 실제 기여 범위**를 함께 적었습니다.
 
-### 🖥️ [Liberal_OS](https://github.com/HANJUSON/Liberal_OS) — xv6 커널 기반 멀티 에이전트 OS
-xv6 커널을 **직접 수정**해 5개 LLM 에이전트(파서 → 분류 → 원인분석 → 수정제안 → 평가)를
-**OS 프로세스로** 격리·스케줄링·검증·캐싱하는 로그 트리아지 시스템.
-Python `multiprocessing`이 아니라 `proc.c` · `syscall.c` · `verifier.c` · `cache.c` 커널 코드로 구현.
+### 🖥️ [Liberal_OS](https://github.com/HANJUSON/Liberal_OS) — xv6 멀티 에이전트 OS + 자율 개발 하네스
+5개 LLM 에이전트(파서 → 분류 → 원인분석 → 수정제안 → 평가)를 **xv6 프로세스로**
+격리·스케줄링·검증·캐싱하는 로그 트리아지 시스템. Python `multiprocessing`이 아니라
+`proc.c` · `syscall.c` · `verifier.c` · `cache.c` 커널 코드로 동작합니다.
 
-`C` `xv6` `Shell` · **2인 팀 · 커밋 66/108 (약 61%)** · [기술 보고서](https://github.com/HANJUSON/Liberal_OS/blob/main/docs/TECHNICAL_REPORT.md)
+**제 산출물은 커널 코드가 아니라 그것을 만들어낸 하네스입니다** — 작업 큐(`STATUS.md`),
+헤드리스 QEMU 자동 검증(`make autotest`), 커널 PANIC_DUMP 후킹, 회귀 게이트,
+4인 `git worktree` 병렬 운영. 사람 개입 빈도를 **20분/회 → 2~4시간/회**로 줄였습니다.
+
+> ⚠️ 핵심 구현(xv6 커널 수정)은 AI 에이전트가 수행했습니다.
+> 설계 근거와 한계는 [HARNESS.md](https://github.com/HANJUSON/Liberal_OS/blob/main/HARNESS.md)에 정리해 두었습니다.
+
+`C` `xv6` `QEMU` `Claude Code` · **2인 팀 · 커밋 66/108** · [기술 보고서](https://github.com/HANJUSON/Liberal_OS/blob/main/docs/TECHNICAL_REPORT.md) · [하네스 설계서](https://github.com/HANJUSON/Liberal_OS/blob/main/HARNESS.md)
 
 ---
 
@@ -131,9 +138,9 @@ loopback은 커널이 네트워크 스택을 우회하므로 **Docker bridge 격
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=HANJUSON&show_icons=true&theme=default&title_color=8B0029&icon_color=B49B57&text_color=333333&border_color=8B0029&bg_color=ffffff&hide_border=false" />
+<img height="200" alt="GitHub 활동 통계" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=HANJUSON&theme=default" />
 &nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HANJUSON&layout=compact&title_color=8B0029&text_color=333333&border_color=8B0029&bg_color=ffffff&hide_border=false" />
+<img height="200" alt="주요 사용 언어" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=HANJUSON&theme=default" />
 
 </div>
 
